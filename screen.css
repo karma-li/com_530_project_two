@@ -34,18 +34,21 @@ h2 {
 	font-family: "Amatic SC";
 	font-weight: bold;
 	font-size: 1.563em; /* 28.125px / 18px = 1.563em */
+	color: #7F8D9D;
 	line-height: 1.691em; /* 47.35px / 28px = 1.691em */
 }
 
 h3 {
 	font-family: "PT Sans";
 	font-size: 1.05em; /* 18.9px / 18px = 1.05em */
+	color: #84786F;
 	line-height: 1.691em; /* 47.35px / 28px = 1.691em */
 }
 
 p {
 	font-family: "PT Sans";
 	font-size: 1em; /* 18px / 18px = 1em */
+	color: #84786F;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-left: 1em;
@@ -55,4 +58,22 @@ p {
 footer {
 	font-family: "PT Sans";
 	font-size: 0.8em; /* 14.4px / 18px = 0.8em */
+}
+
+/* State Styles */
+
+/* 500px / 18px = 27.778em */
+@media screen and (min-width: 27.778em) {
+	h2 {
+		background-color: #FFF1E2;
+	}
+	#about {
+		background-color: #C9D2D6;
+	}
+	#interests {
+		background-color: #C9D2D6;
+	}
+	#contact {
+		background-color: #C9D2D6;
+	}
 }
