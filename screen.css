@@ -5,3 +5,54 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit;}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
 /* Begin site styles... */
+
+/* Using a Major Third modular scale:
+*  https://www.modularscale.com/?18&px&1.25
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|PT+Sans&display=swap');
+
+/* Base Styles */
+
+html {
+	font-family: "Amatic SC", cursive;
+	font-family: "PT Sans", sans-serif;
+	font-size: 1.125em; /* 18px / 16px = 1.125em */
+	line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222  */
+	padding: 1.2222222222em 1.8333333333em; /* 33 / 18 */
+
+}
+
+h1 {
+	font-family: "Amatic SC";
+	font-size: 4.768em; /* 85.831px / 18px = 4.768em */
+	line-height: 9.355em; /* 327.418px / 35px = 9.355em */
+	text-align: center;
+}
+
+h2 {
+	font-family: "Amatic SC";
+	font-weight: bold;
+	font-size: 1.563em; /* 28.125px / 18px = 1.563em */
+	line-height: 1.691em; /* 47.35px / 28px = 1.691em */
+}
+
+h3 {
+	font-family: "PT Sans";
+	font-size: 1.05em; /* 18.9px / 18px = 1.05em */
+	line-height: 1.691em; /* 47.35px / 28px = 1.691em */
+}
+
+p {
+	font-family: "PT Sans";
+	font-size: 1em; /* 18px / 18px = 1em */
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+footer {
+	font-family: "PT Sans";
+	font-size: 0.8em; /* 14.4px / 18px = 0.8em */
+}
