@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans+Condensed:wght@300&family=PT+Sans&display=swap&subset=latin-ext');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -7,57 +8,56 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles... */
 
 /* Using a Major Third modular scale:
-*  https://www.modularscale.com/?18&px&1.25
+	https://www.modularscale.com/?18&px&1.25
 */
-
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|PT+Sans&display=swap');
 
 /* Base Styles */
 
 html {
-	font-family: "Amatic SC", cursive;
-	font-family: "PT Sans", sans-serif;
 	font-size: 1.125em; /* 18px / 16px = 1.125em */
-	line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222  */
-	padding: 1.2222222222em 1.8333333333em; /* 33 / 18 */
-
+	line-height: 1.222em; /* 22px / 18px = 1.222em */
+	padding: 1.222em 1.833em; /* 33px / 18px = 1.833em */
 }
 
 h1 {
-	font-family: "Amatic SC";
+	font-family: "Amatic SC", cursive;
 	font-size: 4.768em; /* 85.831px / 18px = 4.768em */
 	line-height: 9.355em; /* 327.418px / 35px = 9.355em */
+	text-transform: uppercase;
 	text-align: center;
 }
 
 h2 {
-	font-family: "Amatic SC";
+	font-family: "Amatic SC", cursive;
 	font-weight: bold;
 	font-size: 1.563em; /* 28.125px / 18px = 1.563em */
-	color: #7F8D9D;
 	line-height: 1.691em; /* 47.35px / 28px = 1.691em */
+	text-transform: uppercase;
+	color: #7F8D9D;
 }
 
 h3 {
-	font-family: "PT Sans";
+	font-family: "Open Sans Condensed", sans-serif;
 	font-size: 1.05em; /* 18.9px / 18px = 1.05em */
-	color: #84786F;
 	line-height: 1.691em; /* 47.35px / 28px = 1.691em */
+	color: #84786F;
 }
 
-p {
-	font-family: "PT Sans";
+p,
+figcaption {
+	font-family: "Open Sans Condensed", sans-serif;
 	font-size: 1em; /* 18px / 18px = 1em */
-	color: #84786F;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-left: 1em;
 	padding-right: 1em;
+	color: #84786F;
 }
 
-footer {
-	font-family: "PT Sans";
+.copyright {
+	font-family: "PT Sans", sans-serif;
 	font-size: 0.8em; /* 14.4px / 18px = 0.8em */
+	padding-top: 2.441em; /* 43.945px / 18px = 2.441em */
 }
 
 /* State Styles */
